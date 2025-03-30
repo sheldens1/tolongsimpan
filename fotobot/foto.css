@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+video, canvas {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+button, select, input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background: #ff0057;
+    color: white;
+}
+
+a#download {
+    display: block;
+    background: #00ff0a;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}

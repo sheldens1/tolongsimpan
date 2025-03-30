@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Photobooth</title>
+    <link rel="stylesheet" href="fotobot/foto.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Web Photobooth</h1>
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+        <div class="controls">
+            <select id="filter">
+                <option value="none">No Effect</option>
+                <option value="grayscale(100%)">Grayscale</option>
+                <option value="sepia(100%)">Sepia</option>
+                <option value="invert(100%)">Invert</option>
+                <option value="blur(5px)">Blur</option>
+            </select>
+            <input type="color" id="bgColor" value="#ffffff">
+            <button id="capture">📷 Take Photo</button>
+        </div>
+        <a id="download" download="photo.png">⬇️ Download</a>
+    </div>
+    <script src="fotobot/foto.js"></script>
+</body>
+</html>
